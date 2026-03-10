@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link
             rel="stylesheet"
             type="text/css"
             media="screen"
@@ -16,8 +16,59 @@
             media="screen"
             href="css/custom.css"
         />
-</head>
-<body>
-    
-</body>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="css/login.css"
+        />
+    </head>
+    <body>
+        <div class="login-wrapper">
+            <!-- Left: Login Form -->
+            <div class="login-left">
+                <h1>Login</h1>
+                <div class="login-form">
+                    <button class="social-btn">Continue with Google</button>
+                    <button class="social-btn">Continue with Apple</button>
+
+                    <hr class="divider" />
+
+                    <label class="form-label" for="email">Email address</label>
+                    <input
+                        class="form-input"
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                    />
+
+                    <label class="form-label" for="password">Password</label>
+                    <input
+                        class="form-input"
+                        type="password"
+                        id="password"
+                        name="password"
+                        autocomplete="current-password"
+                    />
+
+                    <button class="login-btn" type="submit">Login</button>
+
+                    <p class="create-account-text">
+                        Don't have an account?
+                        <a href="register.html" class="create-account-link">Create account</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right: Illustration -->
+            <div class="login-right">
+                <img
+                    src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
+                    alt="Fresh groceries"
+                    class="login-right-img"
+                />
+            </div>
+        </div>
+    </body>
 </html>
