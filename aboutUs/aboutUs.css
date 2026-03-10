@@ -1,0 +1,39 @@
+body {
+    background: #f4f6f8;
+}
+
+/* feature icons */
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 22px;
+}
+
+/* icon colors */
+
+.green {
+    background: #d1f3dd;
+}
+
+.red {
+    background: #f7d6d6;
+}
+
+.blue {
+    background: #d6e7f7;
+}
+
+.purple {
+    background: #e6d6f7;
+}
+
+/* contact section */
+
+.contact-card {
+    background: linear-gradient(90deg, #dff1e6, #e3edf6);
+}

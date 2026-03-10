@@ -1,0 +1,32 @@
+/* page background */
+body {
+    background: #f4f6f8;
+}
+
+/* store cards */
+.store-card {
+    border-radius: 12px;
+}
+
+/* rating badge */
+.rating {
+    background: #f6e6a7;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* buttons */
+.btn-directions {
+    background: rgb(33, 212, 99);
+    color: white;
+}
+
+.btn-directions:hover {
+    background: #adebb3;
+    color: white;
+}
+
+.btn-details {
+    background: #e9ecef;
+}
