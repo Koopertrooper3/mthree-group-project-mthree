@@ -1,0 +1,32 @@
+.bg-green{
+    background-color: #ADEBB3;
+}
+
+.viewport-height{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    /* height: -webkit-fill-available; */
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.navbar-dimensions{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    /* height: -webkit-fill-available; */
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 280px;
+}
+
+.nav-spacing{
+    margin-inline: 5%
+}
+.logo-spacing{
+    margin-left: 22px;
+}
+
