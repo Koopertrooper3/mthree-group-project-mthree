@@ -2,6 +2,8 @@
     background-color: #ADEBB3;
 }
 
+
+/* Navbar CSS start */
 .viewport-height{
     display: flex;
     flex-wrap: nowrap;
@@ -20,7 +22,7 @@
     max-height: 100vh;
     overflow-x: auto;
     overflow-y: hidden;
-    width: 280px;
+    width: 15%;
 }
 
 .nav-spacing{
@@ -29,4 +31,7 @@
 .logo-spacing{
     margin-left: 22px;
 }
+
+/* Navbar CSS end */
+
 
