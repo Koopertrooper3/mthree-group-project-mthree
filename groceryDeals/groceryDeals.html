@@ -21,157 +21,207 @@
     </head>
 
     <body>
-        <nav
-            class="navbar navbar-expand flex-column navbar-dimensions bg-green"
-        >
-            <div class="container-fluid justify-content-center mt-3">
-                <p class="fw-bold fs-4">Grocer!</p>
-            </div>
-            <hr />
-            <div class="container-fluid flex-column mb-auto" id="navbarNav">
-                <ul class="navbar-nav flex-column">
-                    <li class="nav-item text-white fw-bold">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item text-black fw-bold">
-                        <a class="nav-link" href="">Items On Sale</a>
-                    </li>
-                    <li class="nav-item text-black fw-bold">
-                        <a class="nav-link" href="#">Stores Near You</a>
-                    </li>
-                    <li class="nav-item text-black fw-bold">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-                <!-- <ul class="navbar-nav flex-column">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-            </ul> -->
-            </div>
-            <div class="container-fluid flex-column mb-4">
-                <a class="nav-link fw-bold" href="login.html">Logout</a>
-            </div>
-        </nav>
+        <div class="d-flex">
+            <nav
+                class="navbar navbar-expand flex-column navbar-dimensions bg-green"
+            >
+                <div class="container-fluid justify-content-center mt-3">
+                    <p class="fw-bold fs-4">Grocer!</p>
+                </div>
+                <hr />
+                <div class="container-fluid flex-column mb-auto" id="navbarNav">
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item text-white fw-bold">
+                            <a
+                                class="nav-link"
+                                href="/groceryHome/groceryListHome.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item text-black fw-bold">
+                            <a
+                                class="nav-link"
+                                href="/groceryDeals/groceryDeals.html"
+                                >Items On Sale</a
+                            >
+                        </li>
+                        <li class="nav-item text-black fw-bold">
+                            <a
+                                class="nav-link"
+                                href="/nearbyStores/nearbyStores.html"
+                                >Stores Near You</a
+                            >
+                        </li>
+                        <li class="nav-item text-black fw-bold">
+                            <a class="nav-link" href="/aboutUs/aboutUs.html"
+                                >About</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-fluid flex-column mb-4">
+                    <a class="nav-link fw-bold" href="login.html">Logout</a>
+                </div>
+            </nav>
 
-        <div class="container py-5">
-            <h2 class="fw-bold mb-1">Items on Sale</h2>
-            <p class="text-muted mb-4">Check out the best deals near you</p>
+            <div class="container py-5">
+                <h2 class="fw-bold mb-1">Items on Sale</h2>
+                <p class="text-muted mb-4">Check out the best deals near you</p>
 
-            <div class="row g-4">
-                <!-- Apples -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="discount-bar">50% OFF</div>
-                        <div class="card-body">
-                            <h5>Apples</h5>
-                            <div class="store">Fresh Market</div>
+                <div class="row g-4">
+                    <!-- Apples -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="discount-bar">50% OFF</div>
+                            <div class="card-body">
+                                <h5>Apples</h5>
+                                <div class="store">Fresh Market</div>
 
-                            <div class="mt-3">
-                                <span class="price">$3.49</span>
-                                <span class="old-price">$6.99</span>
+                                <div class="mt-3">
+                                    <span class="price">$3.49</span>
+                                    <span class="old-price">$6.99</span>
+                                </div>
+
+                                <button
+                                    class="add-btn"
+                                    onclick="
+                                        location.href =
+                                            '/nearbyStores/nearbyStores.html'
+                                    "
+                                >
+                                    View Store
+                                </button>
                             </div>
-
-                            <button class="add-btn">View Store</button>
                         </div>
                     </div>
-                </div>
 
-                <!-- Milk -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="discount-bar">33% OFF</div>
-                        <div class="card-body">
-                            <h5>Milk</h5>
-                            <div class="store">Grocery Plus</div>
+                    <!-- Milk -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="discount-bar">33% OFF</div>
+                            <div class="card-body">
+                                <h5>Milk</h5>
+                                <div class="store">Grocery Plus</div>
 
-                            <div class="mt-3">
-                                <span class="price">$2.99</span>
-                                <span class="old-price">$4.49</span>
+                                <div class="mt-3">
+                                    <span class="price">$2.99</span>
+                                    <span class="old-price">$4.49</span>
+                                </div>
+
+                                <button
+                                    class="add-btn"
+                                    onclick="
+                                        location.href =
+                                            '/nearbyStores/nearbyStores.html'
+                                    "
+                                >
+                                    View Store
+                                </button>
                             </div>
-
-                            <button class="add-btn">View Store</button>
                         </div>
                     </div>
-                </div>
 
-                <!-- Bread -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="discount-bar">38% OFF</div>
-                        <div class="card-body">
-                            <h5>Bread</h5>
-                            <div class="store">Baker's Corner</div>
+                    <!-- Bread -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="discount-bar">38% OFF</div>
+                            <div class="card-body">
+                                <h5>Bread</h5>
+                                <div class="store">Baker's Corner</div>
 
-                            <div class="mt-3">
-                                <span class="price">$2.49</span>
-                                <span class="old-price">$3.99</span>
+                                <div class="mt-3">
+                                    <span class="price">$2.49</span>
+                                    <span class="old-price">$3.99</span>
+                                </div>
+
+                                <button
+                                    class="add-btn"
+                                    onclick="
+                                        location.href =
+                                            '/nearbyStores/nearbyStores.html'
+                                    "
+                                >
+                                    View Store
+                                </button>
                             </div>
-
-                            <button class="add-btn">View Store</button>
                         </div>
                     </div>
-                </div>
 
-                <!-- Chicken -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="discount-bar">31% OFF</div>
-                        <div class="card-body">
-                            <h5>Chicken Breast</h5>
-                            <div class="store">Fresh Market</div>
+                    <!-- Chicken -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="discount-bar">31% OFF</div>
+                            <div class="card-body">
+                                <h5>Chicken Breast</h5>
+                                <div class="store">Fresh Market</div>
 
-                            <div class="mt-3">
-                                <span class="price">$8.99</span>
-                                <span class="old-price">$12.99</span>
+                                <div class="mt-3">
+                                    <span class="price">$8.99</span>
+                                    <span class="old-price">$12.99</span>
+                                </div>
+
+                                <button
+                                    class="add-btn"
+                                    onclick="
+                                        location.href =
+                                            '/nearbyStores/nearbyStores.html'
+                                    "
+                                >
+                                    View Store
+                                </button>
                             </div>
-
-                            <button class="add-btn">View Store</button>
                         </div>
                     </div>
-                </div>
 
-                <!-- Oranges -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="discount-bar">29% OFF</div>
-                        <div class="card-body">
-                            <h5>Oranges</h5>
-                            <div class="store">Grocery Plus</div>
+                    <!-- Oranges -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="discount-bar">29% OFF</div>
+                            <div class="card-body">
+                                <h5>Oranges</h5>
+                                <div class="store">Grocery Plus</div>
 
-                            <div class="mt-3">
-                                <span class="price">$4.99</span>
-                                <span class="old-price">$6.99</span>
+                                <div class="mt-3">
+                                    <span class="price">$4.99</span>
+                                    <span class="old-price">$6.99</span>
+                                </div>
+
+                                <button
+                                    class="add-btn"
+                                    onclick="
+                                        location.href =
+                                            '/nearbyStores/nearbyStores.html'
+                                    "
+                                >
+                                    View Store
+                                </button>
                             </div>
-
-                            <button class="add-btn">View Store</button>
                         </div>
                     </div>
-                </div>
 
-                <!-- Yogurt -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="discount-bar">33% OFF</div>
-                        <div class="card-body">
-                            <h5>Yogurt</h5>
-                            <div class="store">Dairy Delight</div>
+                    <!-- Yogurt -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="discount-bar">33% OFF</div>
+                            <div class="card-body">
+                                <h5>Yogurt</h5>
+                                <div class="store">Dairy Delight</div>
 
-                            <div class="mt-3">
-                                <span class="price">$3.99</span>
-                                <span class="old-price">$5.99</span>
+                                <div class="mt-3">
+                                    <span class="price">$3.99</span>
+                                    <span class="old-price">$5.99</span>
+                                </div>
+
+                                <button
+                                    class="add-btn"
+                                    onclick="
+                                        location.href =
+                                            '/nearbyStores/nearbyStores.html'
+                                    "
+                                >
+                                    View Store
+                                </button>
                             </div>
-
-                            <button class="add-btn">View Store</button>
                         </div>
                     </div>
                 </div>
