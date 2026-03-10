@@ -1,0 +1,53 @@
+body {
+    background: #f3f4f6;
+}
+
+.section-title {
+    font-weight: 600;
+}
+
+.card {
+    border-radius: 12px;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+
+.discount-bar {
+    background: linear-gradient(90deg, #ff3b3b, #ff7a00);
+    color: white;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 600;
+    color: #16a34a;
+}
+
+.old-price {
+    color: #9ca3af;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.add-btn {
+    width: 100%;
+    margin-top: 1.5rem;
+    background: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.add-btn:hover {
+    background: #15803d;
+}
+
+.store {
+    color: #6b7280;
+    font-size: 14px;
+}
