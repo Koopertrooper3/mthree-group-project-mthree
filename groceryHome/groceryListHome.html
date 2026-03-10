@@ -33,32 +33,19 @@
         <div class="container-fluid flex-column mb-auto" id="navbarNav">
             <ul class="navbar-nav flex-column">
                 <li class="nav-item text-white fw-bold">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/groceryHome/groceryListHome.html">Home</a>
                 </li>
                 <li class="nav-item text-black fw-bold">
-                    <a class="nav-link" href="">Items On Sale</a>
+                    <a class="nav-link" href="/groceryDeals/groceryDeals.html">Items On Sale</a>
                 </li>
                 <li class="nav-item text-black fw-bold">
-                    <a class="nav-link" href="#">Stores Near You</a>
+                    <a class="nav-link" href="/nearbyStores/nearbyStores.html">Stores Near You</a>
                 </li>
                 <li class="nav-item text-black fw-bold">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="/aboutUs.html">About</a>
                 </li>
             </ul>
-            <!-- <ul class="navbar-nav flex-column">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-            </ul> -->
+
         </div>
         <div class="container-fluid flex-column mb-4">
             <a class="nav-link fw-bold" href="login.html">Logout</a>
@@ -69,9 +56,14 @@
     <section class="main_content" id="main_content">
 
         <div class="d-flex m-5 border-bottom">
-            <div class="ms-5" id="title_section">
+            <div class="w-100 ms-5" id="title_section">
                 <h1>Grocery Lists</h1>
                 <p>Manage your grocery lists</p>
+                <div class="badge rounded-pill bg-green mb-3 add_list_button_sizing add_list_button_spacing">
+                        <a class="bg-transparent border-0 text-black fw-bold text-decoration-none add_list_button_font" href="../groceryListView/groceryListView.html">
+                            + Add new List
+                        </a>
+                </div>
             </div>
         </div>
 
