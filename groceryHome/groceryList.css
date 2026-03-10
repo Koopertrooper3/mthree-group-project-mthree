@@ -1,0 +1,19 @@
+/* Grocery List Start*/
+
+.main_content{
+    width: 90%;
+}
+.edit_button_spacing{
+    margin-left: 85%;
+}
+.delete_button_spacing{
+    margin-left: 1%;
+}
+.button_sizing{
+    width: 5%;
+    height: 100%;
+    align-content: center;
+}
+
+
+/* Grocery List End*/

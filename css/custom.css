@@ -2,6 +2,8 @@
     background-color: #ADEBB3;
 }
 
+
+/* Navbar CSS start */
 .viewport-height{
     display: flex;
     flex-wrap: nowrap;
@@ -29,4 +31,7 @@
 .logo-spacing{
     margin-left: 22px;
 }
+
+/* Navbar CSS end */
+
 
