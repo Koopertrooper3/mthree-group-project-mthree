@@ -1,0 +1,68 @@
+.main_content {
+    width: 85%;
+}
+.edit_button_spacing {
+    margin-left: 85%;
+}
+.delete_button_spacing {
+    margin-left: 1%;
+}
+.button_sizing {
+    width: 5%;
+    height: 100%;
+    align-content: center;
+}
+
+body {
+    background: #f3f4f6;
+}
+
+.section-title {
+    font-weight: 600;
+}
+
+.card {
+    border-radius: 12px;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+
+.discount-bar {
+    background: linear-gradient(90deg, #ff3b3b, #ff7a00);
+    color: white;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(33, 212, 99);
+}
+
+.old-price {
+    color: #9ca3af;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.add-btn {
+    width: 100%;
+    margin-top: 1.5rem;
+    background: rgb(33, 212, 99);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.add-btn:hover {
+    background: #adebb3;
+}
+
+.store {
+    color: #6b7280;
+    font-size: 14px;
+}
