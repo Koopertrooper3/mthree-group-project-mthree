@@ -1,5 +1,4 @@
 function addIngredientToList() {
-    window.alert("Clicked");
 
     const ingredientList = document.getElementById("ingredient-list");
     let ingredientName = document.getElementById("ingredient-name").value;
