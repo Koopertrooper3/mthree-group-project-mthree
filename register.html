@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
             rel="stylesheet"
             type="text/css"
             media="screen"
@@ -16,8 +16,90 @@
             media="screen"
             href="css/custom.css"
         />
-</head>
-<body>
-    
-</body>
+    </head>
+    <body>
+        <div class="container-fluid vh-100">
+            <div class="row h-100">
+                <div
+                    class="col-md-6 p-0 d-none d-md-block"
+                    style="background-color: #f4a0a0"
+                >
+                    <img
+                        src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800"
+                        alt="Shopping cart with groceries"
+                        class="w-100 h-100"
+                        style="object-fit: cover"
+                    />
+                </div>
+                <div
+                    class="col-md-6 d-flex align-items-center justify-content-center"
+                >
+                    <div class="w-75">
+                        <img
+                            src="assets/logo.png"
+                            alt="Grocery Logo"
+                            style="width: 80px; margin-bottom: 1.5rem"
+                        />
+                        <h1 class="fw-bold mb-5">Create your account</h1>
+                        <form>
+                            <div class="mb-4">
+                                <label class="form-label">Name</label>
+                                <input
+                                    type="text"
+                                    class="form-control form-control-lg rounded-3"
+                                    style="
+                                        background-color: #f0f0f0;
+                                        border: none;
+                                    "
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label">Email</label>
+                                <input
+                                    type="email"
+                                    class="form-control form-control-lg rounded-3"
+                                    style="
+                                        background-color: #f0f0f0;
+                                        border: none;
+                                    "
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label">Password</label>
+                                <input
+                                    type="password"
+                                    class="form-control form-control-lg rounded-3"
+                                    style="
+                                        background-color: #f0f0f0;
+                                        border: none;
+                                    "
+                                />
+                            </div>
+                            <div class="mb-5">
+                                <label class="form-label"
+                                    >Re-type Password</label
+                                >
+                                <input
+                                    type="password"
+                                    class="form-control form-control-lg rounded-3"
+                                    style="
+                                        background-color: #f0f0f0;
+                                        border: none;
+                                    "
+                                />
+                            </div>
+                            <a
+                                type="submit"
+                                class="btn btn-lg rounded-pill px-5 text-white"
+                                style="background-color: #8a9a6d"
+                                href="groceryListHome.html"
+                            >
+                                Register
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
